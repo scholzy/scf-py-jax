@@ -8,9 +8,11 @@ The code adheres closely to the sample program from "Modern Quantum Chemistry" b
 
 The only requirements for this code are Python 3.7+ and JAX. It was written using Python 3.10.5 and JAX 0.3.15, both installed from conda-forge on MacOS 12.5.
 
-## Installation
+## Installation and running
 
-Just clone the repository, make sure you have appropriately recent versions of Python and JAX installed, and run `python3 scf/scf.py'. You should get an energy of -2.860662 Hartree, which agrees exactly with the published value of -2.8606619915 Hartree albeit to reduced precision, thanks to JAX using 32-bit floats by default.
+Just clone the repository, make sure you have appropriately recent versions of Python and JAX installed, and run `python3 scf/scf.py`.
+
+You should get an energy of `-2.860662 Hartree`, which agrees exactly with the published value of `-2.8606619915 Hartree` albeit to reduced precision, thanks to JAX using 32-bit floats by default.
 
 ## License
 
